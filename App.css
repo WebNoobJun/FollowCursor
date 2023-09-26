@@ -1,0 +1,27 @@
+* {
+    cursor: none;
+}
+
+body {
+    background-color: black;
+}
+
+.App {
+    text-align: center;
+}
+
+ul {
+    font-size: 100px;
+    color: white;
+    list-style: none;
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
